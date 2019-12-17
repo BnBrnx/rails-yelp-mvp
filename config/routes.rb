@@ -3,6 +3,6 @@ Rails.application.routes.draw do
     collection do
       get "top" => "restaurants#top"
     end
+  resources :reviews, only: [:new, :create]
   end
 end
-
