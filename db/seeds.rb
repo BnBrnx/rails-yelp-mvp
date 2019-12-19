@@ -14,12 +14,14 @@ restaurants_attributes = [
   {
     name:         'Dishoom',
     address:      '7 Boundary St, London E2 7JE',
+    phone_number: '01234456789',
     content:  'Buzzy destination for Indian street food in Bombay-style vintage decor.',
     stars:        5
   },
   {
     name:         'Pizza East',
     address:      '56A Shoreditch High St, London E1 6PQ',
+    phone_number: '10987654321',
     content:  'Pizzeria with industrial looks, serving rustic pizza and antipasti.',
     stars:        4
   }

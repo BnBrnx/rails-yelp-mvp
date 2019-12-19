@@ -18,7 +18,7 @@ class RestaurantsTest < ApplicationSystemTestCase
     fill_in "Category", with: @restaurant.category
     fill_in "Content", with: @restaurant.content
     fill_in "Name", with: @restaurant.name
-    fill_in "Phone", with: @restaurant.phone
+    fill_in "Phone Number", with: @restaurant.phone_number
     fill_in "References", with: @restaurant.references
     fill_in "Stars", with: @restaurant.stars
     click_on "Create Restaurant"
@@ -35,7 +35,7 @@ class RestaurantsTest < ApplicationSystemTestCase
     fill_in "Category", with: @restaurant.category
     fill_in "Content", with: @restaurant.content
     fill_in "Name", with: @restaurant.name
-    fill_in "Phone", with: @restaurant.phone
+    fill_in "Phone Number", with: @restaurant.phone_number
     fill_in "References", with: @restaurant.references
     fill_in "Stars", with: @restaurant.stars
     click_on "Update Restaurant"
